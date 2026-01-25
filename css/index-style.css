@@ -1,0 +1,64 @@
+h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-block: 0.47em;
+    color: darkorchid;
+    text-shadow: 4px 4px 4px burlywood;
+}
+:where(h1) {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
+li{
+    font-family:"Rancho";
+    font-size: 24px;
+}
+
+.font-effect-neon{
+    font-size: 24px;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font-effect-fire-animation{
+    font-size: 28px;
+}
+
+span{
+    font-family: "Lucida Grande";
+}
+section {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+article{
+    flex: 1;
+}
+.content{
+    background-color: bisque;
+}
+.footer{
+    justify-content: space-between;
+    background-color: bisque;
+    display: flex;
+    width: 100%;
+}
+.left{
+    text-align: left;
+}
+hr{
+    background-color: bisque;
+    margin: 0px 0px;
+}
+fieldset{
+    color: blueviolet;
+    font-style: italic;
+}
+
+.font-effect-crackle{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+}
